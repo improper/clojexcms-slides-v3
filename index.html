@@ -1,37 +1,37 @@
 <!doctype html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
 
-		<title>(ClojureScript) Web Applications by Example</title>
+        <title>(ClojureScript) Web Applications by Example</title>
 
-		<meta name="description" content="Slides for a talk held at :clojureD 2015">
-		<meta name="author" content="Steffen Beyer">
+        <meta name="description" content="Slides for a talk held at :clojureD 2015">
+        <meta name="author" content="Steffen Beyer">
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/solarized.css" id="theme">
 
-		<!-- Code syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+        <!-- Code syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
 
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
 
         <style>
             .reveal ol li, .reveal ul li {
@@ -42,27 +42,27 @@
                 background: none;
             }
         </style>
-	</head>
+    </head>
 
-	<body>
+    <body>
 
-		<div class="reveal">
+        <div class="reveal">
 
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-				<section>
-					<h1>Web Applications<br>by Example</h1>
-					<h3>Client, Server, Development</h3>
-					<p style="margin: 3ex 0 0 0">
-						<small>Steffen Beyer</small>
-					</p>
-					<p>
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                <section>
+                    <h1>Web Applications<br>by Example</h1>
+                    <h3>Client, Server, Development</h3>
+                    <p style="margin: 3ex 0 0 0">
+                        <small>Steffen Beyer</small>
+                    </p>
+                    <p>
                         <small>:clojureD 2015, Berlin</small>
-					</p>
-				</section>
+                    </p>
+                </section>
 
-				<section>
-					<h2>Outline</h2>
+                <section>
+                    <h2>Outline</h2>
                     <ol>
                         <li>Motivation</li>
                         <li>Application: ClojExCMS</li>
@@ -71,10 +71,10 @@
                         <li>Client-side implementation</li>
                         <li>Conclusion</li>
                     </ol>
-				</section>
+                </section>
 
-				<section>
-					<h2>Motivation</h2>
+                <section>
+                    <h2>Motivation</h2>
                     <ul>
                         <li>Software development should be fun</li>
                         <li><em>Bret Victor</em></li>
@@ -82,27 +82,27 @@
                         <li>General purpose frontend/backend template</li>
                         <li>Invite <strong>you</strong> to participate</li>
                     </ul>
-				</section>
+                </section>
 
-				<section>
+                <section>
                     <h2>Live Demo</h2>
-				</section>
+                </section>
 
-				<section>
+                <section>
                     <h2>Application architecture</h2>
                     <p>
                         (in terms of libraries and building blocks)
                     </p>
                     <img width="468" height="486" src="img/architecture.png" alt="Application architecture"
                          style="border: none; box-shadow: none">
-				</section>
+                </section>
 
-				<section>
+                <section>
                     <h2>Live Demo</h2>
-				</section>
+                </section>
 
-				<section>
-					<h2>Conclusion</h2>
+                <section>
+                    <h2>Conclusion</h2>
                     <ul>
                         <li>ClojureScript feels mature</li>
                         <li>Libraries feel powerful</li>
@@ -118,62 +118,62 @@
                             </ul>
                         </li>
                     </ul>
-				</section>
+                </section>
 
-				<section>
-					<h1>Thank you!</h1>
-					<blockquote style="margin: 45px auto">
-						“You can tell whether a man is clever by his answers.
+                <section>
+                    <h1>Thank you!</h1>
+                    <blockquote style="margin: 45px auto">
+                        “You can tell whether a man is clever by his answers.
                         You can tell whether a man is wise by his questions.”
                         — Naguib Mahfouz
                     </blockquote>
                     <p style="margin: 45px auto">
                         Questions?
-					</p>
+                    </p>
                     <p>
                         <a href="mailto:steffen@beyer.io">
                             steffen@beyer.io
                         </a>
-					</p>
+                    </p>
                     <p>
                         <a href="https://github.com/improper/clojexcms">
                             https://github.com/improper/clojexcms
                         </a>
                     </p>
-				</section>
+                </section>
 
-			</div>
+            </div>
 
-		</div>
+        </div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
 
-		<script>
+        <script>
 
-			// Full list of configuration options available at:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
+            // Full list of configuration options available at:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
 
-				transition: 'convex', // none/fade/slide/convex/concave/zoom
+                transition: 'convex', // none/fade/slide/convex/concave/zoom
                 transitionSpeed: 'slow',
 
-				// Optional reveal.js plugins
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true }
-				]
-			});
+                // Optional reveal.js plugins
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true },
+                    { src: 'plugin/notes/notes.js', async: true }
+                ]
+            });
 
-		</script>
+        </script>
 
-	</body>
+    </body>
 </html>
